@@ -3,10 +3,9 @@
     --secondary-color: #0D397A;
     --heading-color: #CCCCCC;
 }
-body{height:100000px}
 /* start nav */
 .navbar{
-    background-color: var(--secondary-color)
+    background-color: var(--main-color)
 }
 .navbar .logo{letter-spacing: 0.5rem;}
 @media screen and (width: 320px){.navbar .logo{letter-spacing: 0;}}
@@ -46,9 +45,10 @@ body{height:100000px}
 
 header{
     width: 100%;
-    height: 45vh;
+    height: 70vh;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
+    background-color: var(--main-color);
 }
 header img{
     position:absolute;
@@ -60,7 +60,6 @@ header img{
 }
 header .container{
     z-index: 2;
-    height:inherit;
     justify-content: center;
 }
 header .container .scroll-down{
@@ -79,28 +78,79 @@ header .container .scroll-down svg{
     position: absolute;
     animation: ease-in-out scroll-down infinite 1500ms;
 }
-@media screen and (width: 320px){
-    header .container .scroll-down{display: none;}
+
+/* start about */
+
+.about{
+    margin: 15rem 0;
 }
-@media screen and (width: 2560px){
-    header{height: calc(78vh - 56px);}
+.about .container .image h1{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 1.5rem;
+    z-index: 1;
+    top: -2.75rem;
+    color: var(--main-color)
 }
-@media screen and (width: 1440px){
-    header{height: calc(100vh - 56px) !important;}
+.about .container .image img{
+    width: 25rem;
+    height: 35rem;
+    z-index: 5;
 }
-@media screen and (width: 1024px){
-    header{height: calc(66vh - 59px);}
+.about .container p{
+    color: var(--main-color)
 }
-@media screen and (width: 768px){
-    header{height: calc(76vh - 59px) !important;}
+.about .container p:first-child:first-letter{
+    text-transform: uppercase;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    font-family: 'Times New Roman', Times, serif
 }
-@media screen and (width: 320px){
-    header{height: calc(47vh - 56px)}
+@media screen and (max-width: 1000px){
+    .about .container{flex-wrap: wrap;}
 }
-@media screen and (width: 375px){
-    header{height: calc(54vh - 57px) !important;}
+
+/* end about */
+
+/* start education */
+
+.education{
+    background-color: var(--main-color)
 }
-/* end header  */
+
+.education .container{
+    justify-content: space-between;
+}
+
+.education .container h1{
+    color: var(--heading-color);
+    font-size: 5rem;
+    top: -6.75rem;
+}
+
+.education .container div img{
+    width: 25vw;
+    height: 50vh;
+}
+
+.education .container li a svg{color: #fff; transition: 0.3s}
+
+.education .container li a:hover svg{
+    transform: scale(1.5);
+    color: var(--secondary-color)
+}
+
+@media screen and (max-width: 768px){
+    .education .container{
+        justify-content: center;
+    }
+    .education .container div img{
+        width: 50%;
+        height: 60%;
+    }
+}
+
+/* end education */
 
 /* start animation */
 
