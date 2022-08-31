@@ -152,6 +152,34 @@ header .container .scroll-down svg{
 
 /* end education */
 
+/* start resume */
+
+.resume .container h1{
+    font-size: 5rem;
+    color: var(--heading-color);
+    margin-bottom: 5rem;
+}
+.resume .container a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    transition: 0.3s;
+}
+.resume .container a:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+/* end resume */
+
+/* start footer  */
+footer{
+    background-color: var(--main-color);
+}
+footer span svg{color:rgb(229, 14, 57)}
+/* end footer  */
+
 /* start animation */
 
 @keyframes scroll-down {
