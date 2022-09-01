@@ -78,27 +78,27 @@ header .container .scroll-down svg{
     animation: ease-in-out scroll-down infinite 1500ms;
 }
 
-@media screen and (width: 2560px){
+@media screen and (width: 2550px) and (width: 2570px){
     header{height: 96.4vh ;}
 }
 
-@media screen and (width: 1440px){
+@media screen and (width: 1430px) and (width: 1450px){
     header{height: 94.1vh ;}
 }
 
-@media screen and (width: 1024px){
+@media screen and (min-width: 1014px) and (min-width: 1034px){
     header{height: 91vh ;}
 }
 
-@media screen and (width: 768px){
+@media screen and (min-width: 758px) and (max-width: 778px){
     header{height: 90vh ;}
 }
 
-@media screen and (min-width: 377px) and (max-width: 426px){
+@media screen and (min-width: 365px) and (max-width: 435px){
     header{height: 50vh ;}
 }
 
-@media screen and (min-width: 321px) and (max-width: 376px){
+@media screen and (min-width: 310px) and (max-width: 355px){
     header{height: 45vh ;}
 }
 @media screen and (width: 320px){
