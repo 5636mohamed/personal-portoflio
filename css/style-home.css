@@ -45,7 +45,6 @@
 
 header{
     width: 100%;
-    height: 70vh;
     position: relative;
     overflow:hidden;
     background-color: var(--main-color);
@@ -79,11 +78,35 @@ header .container .scroll-down svg{
     animation: ease-in-out scroll-down infinite 1500ms;
 }
 
-/* start about */
-
-.about{
-    margin: 15rem 0;
+@media screen and (width: 2560px){
+    header{height: 96.4vh ;}
 }
+
+@media screen and (width: 1440px){
+    header{height: 94.1vh ;}
+}
+
+@media screen and (width: 1024px){
+    header{height: 91vh ;}
+}
+
+@media screen and (width: 768px){
+    header{height: 90vh ;}
+}
+
+@media screen and (min-width: 377px) and (max-width: 426px){
+    header{height: 50vh ;}
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px){
+    header{height: 45vh ;}
+}
+@media screen and (width: 320px){
+    header{height: 38vh ;}
+}
+/* end header  */
+/* start about */
+.about{margin: 5rem 0;}
 .about .container .image h1{
     text-transform: uppercase;
     font-size: 3.5rem;
@@ -124,7 +147,7 @@ header .container .scroll-down svg{
 
 .education .container h1{
     color: var(--heading-color);
-    font-size: 5rem;
+    font-size: 4rem;
     top: -6.75rem;
 }
 
