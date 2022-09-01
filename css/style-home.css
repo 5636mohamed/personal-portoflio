@@ -85,7 +85,7 @@ header .container .scroll-down svg{
     header{height: 94.35vh ;}
 }
 
-@media screen and (min-width: 1014px) and (max-width: 1034px){
+@media screen and (width:1024px){
     header{height: 91vh ;}
 }
 
