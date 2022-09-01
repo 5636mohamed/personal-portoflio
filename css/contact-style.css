@@ -62,3 +62,6 @@ footer .contacts h3:after{
     top: 0;
     right: 0;
 }
+@media screen and (min-width: 310px) and (max-width: 430px){
+    .about .container .image h1{letter-spacing: 0.53rem;}
+}
