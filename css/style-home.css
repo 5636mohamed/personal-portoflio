@@ -55,7 +55,6 @@ header img{
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 100%;
 }
 header .container{
     z-index: 2;
@@ -78,20 +77,20 @@ header .container .scroll-down svg{
     animation: ease-in-out scroll-down infinite 1500ms;
 }
 
-@media screen and (width: 2550px) and (width: 2570px){
+@media screen and (min-width: 2550px) and (max-width: 2570px){
     header{height: 96.4vh ;}
 }
 
-@media screen and (width: 1430px) and (width: 1450px){
-    header{height: 94.1vh ;}
+@media screen and (min-width: 1430px) and (max-width: 1450px){
+    header{height: 94.35vh ;}
 }
 
-@media screen and (min-width: 1014px) and (min-width: 1034px){
+@media screen and (min-width: 1014px) and (max-width: 1034px){
     header{height: 91vh ;}
 }
 
 @media screen and (min-width: 758px) and (max-width: 778px){
-    header{height: 90vh ;}
+    header{height: 79vh ;}
 }
 
 @media screen and (min-width: 365px) and (max-width: 435px){
@@ -99,10 +98,10 @@ header .container .scroll-down svg{
 }
 
 @media screen and (min-width: 310px) and (max-width: 355px){
-    header{height: 45vh ;}
+    header{height: 38vh ;}
 }
 @media screen and (width: 320px){
-    header{height: 38vh ;}
+    header{height: 32vh ;}
 }
 /* end header  */
 /* start about */
