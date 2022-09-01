@@ -179,7 +179,6 @@ header .container .scroll-down svg{
 .resume .container h1{
     font-size: 5rem;
     color: var(--heading-color);
-    margin-bottom: 5rem;
 }
 .resume .container a{
     cursor: pointer;
