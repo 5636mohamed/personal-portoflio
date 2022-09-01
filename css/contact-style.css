@@ -1,0 +1,64 @@
+.contact .container{
+    box-shadow: 1px 4px 6px 0px #333;
+    border-radius: 1rem;
+    width: 85%;
+}
+
+.contact .container input[type="text"],
+.contact .container input[type="email"],
+.contact .container textarea{
+    border:0;
+    border-bottom: 1.75px var(--heading-color) solid;
+}
+
+.contact .container form{width:80%;}
+
+.contact .container input[type="text"],
+.contact .container input[type="email"]{width:calc(50% - 0.5rem);}
+
+.contact .container input[type="text"]:focus,
+.contact .container input[type="email"]:focus,
+.contact .container textarea{outline:none}
+
+.contact .container input[type="email"],
+.contact .container textarea{width: 79%}
+
+@media screen and (max-width: 426px){
+    .contact .container{width: 100%;}
+    .contact .container input[type="text"],
+    .contact .container input[type="email"]{width:100%}
+}
+
+.contact .container button{
+    border: 1px var(--main-color) solid;
+    color: var(--main-color);
+    background-color: #fff;
+    width: 12rem !important;
+    transition: 0.3s
+}
+.contact .container button:hover{
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+footer .contacts h3:before{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 30%;
+    height: 0.15rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer .contacts h3:after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 30%;
+    height: 0.15rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
