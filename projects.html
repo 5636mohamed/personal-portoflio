@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css.map">
         <link rel="stylesheet" href="css/style-home.css">
+        <link rel="stylesheet" href="css/projects-style.css">
         <title>Mohamed Elharery - Projects</title>
     </head>
     <body>
@@ -23,94 +24,217 @@
         </header>
         <!-- end header  -->
         <!-- start navbar  -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="logo navbar-brand fw-bold w-50 text-light" href="#">Mohamed Elharery</a>
-            <button class="toggle-sections navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-xl fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#resume">Resume</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="honours.html">Honours</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="projects.html">projects</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="contact.html">contact</a>
-                </li>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container">
+                <a class="logo navbar-brand fw-bold w-50 text-light" href="#">Mohamed Elharery</a>
+                <button class="toggle-sections navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-xl fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="honours.html">Honours</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="projects.html">projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">contact</a>
+                    </li>
+                </div>
             </div>
-        </div>
         </nav>
         <!-- end navbar  -->
-        <!-- start about  -->
-        <section class="about" id="about">
-            <div class="container d-flex gap-4">
-                <div class="image position-relative d-flex col-lg-6 col-md-12">
-                    <h1 class="position-absolute">About</h1>
-                    <img class="img-fluid m-auto" src="imgs/1660268209404.jpg" alt="">
+        <!-- start courses -->
+        <section class="courses mt-4 mb-4">
+            <div class="container">
+                <h2 class="text-center display-5 fw-bold mb-2">Courses certificates</h2>
+                <p class="text-center text-black-50 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quasi accusamus quaerat in illo, assumenda accusantium, nisi illum, minus deserunt quis hic suscipit pariatur iure aliquam aliquid facere quo nesciunt?</p>
+                <ul class="courses-content list-unstyled d-flex flex-wrap gap-4 justify-content-center align-items-center">
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course1.png" alt="Deep Learning for Everyone">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course2.png" alt="CS50 by Harvard University">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course3.png" alt="Introduction to Data Sciece by DataCamp">
+                        <div class="position-absolute d-flex align-items-center justify-content-center">
+                            <a target="_blank" href="https://drive.google.com/file/d/1Eoj4dLs-RxYLZLqJuy6-BdkFXExvYBEw/view?usp=sharing">
+                                view certificate
+                            </a>
+                        </div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course4.jpg" alt="UI Designing by Adobe XD">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course5.jpeg" alt="Introduction to Applied AI by IBM">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img  class="img-fluid" src="imgs/course6.jpeg" alt="Introduction to DataScience by IBM">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course7.jpeg" alt="Mathematics for Machine Learning by London Imperal College">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course8.jpeg" alt="Robotics by UPenn">
+                        <div class="position-absolute d-flex align-items-center justify-content-center"><a>view certificate</a></div>
+                    </li>
+                    <li class="col-lg-3 col-md-5 position-relative">
+                        <img class="img-fluid" src="imgs/course9.jpeg" alt="Introduction to IoT by eit Digital">
+                        <div class="position-absolute d-flex align-items-center justify-content-center">
+                            <a>view certificate</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- end courses -->
+        <!-- start feature  -->
+        <section class="feature d-flex position-relative pt-5 pb-5 mb-4">
+            <div class="overlay position-absolute w-100 h-100"></div>
+            <div class="container d-flex justify-content-center gap-5">
+                <div class="feat text-center text-light">
+                    <h3>
+                        <i class="fas fa-xl fa-code"></i>
+                    </h3>
+                    <h3>
+                        50k lines of codes
+                    </h3>
                 </div>
-                <div class="info col-lg-6 col-md-12 d-flex flex-column justify-content-center align-items-center">
-                    <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam veritatis qui atque molestiae beatae reiciendis nemo vero quasi, deserunt velit, ad perspiciatis natus eum tempora dolor mollitia ea ut perferendis minus minima. Perferendis, dignissimos. Nesciunt tenetur in, delectus voluptas eos consequatur consequuntur id, aperiam tempora magni rem error ipsam mollitia?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem optio nulla molestias non quia exercitationem voluptatibus recusandae quas minus maiores. Nemo consequuntur nobis aspernatur quaerat facilis adipisci labore modi aperiam cumque recusandae assumenda consequatur debitis eveniet quo, sapiente beatae. Ipsam aliquam cum corrupti cumque delectus blanditiis alias mollitia officiis iste.</p>
+                <div class="feat text-center text-light">
+                    <h3>
+                        <i class="fa-sharp fa-xl fa-solid fa-briefcase"></i>
+                    </h3>
+                    <h3>
+                        50 proejects
+                    </h3>
+                </div>
+                <div class="feat text-center text-light">
+                    <h3>
+                        <i class="fas fa-xl fa-coffee"></i>
+                    </h3>
+                    <h3>
+                        20 cups of coffee
+                    </h3>
                 </div>
             </div>
         </section>
-        <!-- end about  -->
-        <!-- start education  -->
-        <section class="education pt-5 pb-2 position-relative="education">
-            <div class="container d-flex flex-wrap gap-5 text-center text-light position-relative">
-                <h1 class="position-absolute">Education</h1>
-                <div class="high m-auto col-lg-5 col-md-12">
-                    <img class="d-block img-fluid m-auto mb-2" src="imgs/13503045_1038077782954905_1579939598341795428_o (2).png" alt="">
-                    <h3>Alexandria STEM School</h3>
-                    <ul class="features list-unstyled">
-                        <li>language high School</li>
-                        <li>2021-2023</li>
-                        <li>GPA: 3.8 (unweighted)</li>
-                    </ul>
-                    <ul class="media list-unstyled d-flex justify-content-center gap-5">
-                        <li><a href="https://www.facebook.com/Alexandria-STEM-School-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D9%81%D9%88%D9%82%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%A7%D9%84%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-126102901521983"><i class="fa-brands fa-xl fa-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/alexandria-stem-school/"><i class="fa-brands fa-xl fa-linkedin"></i></a></li>
-                    </ul>
+        <!-- end feature  -->
+        <!-- start projects -->
+        <section class="projects mb-3">
+            <div class="container d-flex flex-column">
+                <div class="main-work d-flex align-items-center justify-content-center flex-wrap mb-5">
+                    <div class="image col-lg-6 col-md-12">
+                        <img class="img-fluid" src="imgs/test.jpg" alt="">
+                    </div>
+                    <div class="text col-lg-6 col-md-12">
+                        <h2>I was honoured to build Alexandria STEM School Website</h2>
+                        <p class="mb-4 text-black-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur maiores necessitatibus vitae incidunt repellat neque maxime, unde nulla doloribus quam.</p>
+                        <a href="" class="rounded-pill p-2 ps-3 pe-3 me-3">view website</a>
+                        <a href="" class="rounded-pill p-2 ps-4 pe-4">view code</a>
+                    </div>
                 </div>
-                <div class="middle m-auto col-lg-5 col-md-12">
-                    <img class="m-auto img-fluid d-block mb-2" src="imgs/taha.jpg" alt="">
-                    <h3>Taha Hussien Prep School</h3>
-                    <ul class="features list-unstyled">
-                        <li>Middle governmental School</li>
-                        <li>2018-2020</li>
-                        <li>GPA: 4.0 (unweighted)</li>
-                    </ul>
-                    <ul class="media list-unstyled">
-                        <li><a href="https://www.facebook.com/dtahahus"><i class="fa-brands fa-xl fa-facebook"></i></a></li>
+                <div class="other-work">
+                    <h2 class="text-center display-5 fw-bold mb-2">Previous Projects</h2>
+                    <p class="text-center text-black-50 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quasi accusamus quaerat in illo, assumenda accusantium, nisi illum, minus deserunt quis hic suscipit pariatur iure aliquam aliquid facere quo nesciunt?</p>
+                    <ul class="courses-content list-unstyled d-flex flex-wrap gap-4 justify-content-center align-items-center">
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course1.png" alt="Deep Learning for Everyone">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course2.png" alt="CS50 by Harvard University">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course3.png" alt="Introduction to Data Sciece by DataCamp">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course4.jpg" alt="UI Designing by Adobe XD">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course5.jpeg" alt="Introduction to Applied AI by IBM">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img  class="img-fluid" src="imgs/course6.jpeg" alt="Introduction to DataScience by IBM">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course7.jpeg" alt="Mathematics for Machine Learning by London Imperal College">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course8.jpeg" alt="Robotics by UPenn">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-lg-3 col-md-5 position-relative">
+                            <img class="img-fluid" src="imgs/course9.jpeg" alt="Introduction to IoT by eit Digital">
+                            <div class="position-absolute d-flex align-items-center justify-content-center">
+                                <a target="_blank" href="#">
+                                    view website
+                                </a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
-        <!-- end education  -->
-        <!-- start resume -->
-        <section class="resume mt-5 mb-5 text-center" id="resume">
-            <div class="container d-flex flex-column align-items-center">
-                <h1 class="mb-3">Resume</h1>
-                <p class="text-black-50 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, recusandae itaque. Est aspernatur, blanditiis dignissimos at dolorem, quaerat, cumque minus enim alias velit ad nostrum!</p>
-                <a class="d-block rounded-pill pt-2 pb-2 w-25" href="">Read More</a>
-            </div>
-        </section>
-        <!-- end resume -->
+        <!-- end projects -->
         <!-- start footer  -->
         <footer>
             <div class="container d-flex flex-column align-items-center pt-5 pb-3">
