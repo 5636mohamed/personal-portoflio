@@ -128,3 +128,15 @@ header img{
 .projects .container ul li:hover div a{visibility: visible;}
 
 .projects .container ul li:hover div{width: 100%; visibility: visible;}
+
+.projects .container a{
+    border: 1px var(--main-color) solid;
+    text-decoration: none;
+    color: var(--main-color);
+    transition: 0.3s
+}
+
+.projects .container a:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
