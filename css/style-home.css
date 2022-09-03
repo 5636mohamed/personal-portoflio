@@ -77,32 +77,40 @@ header .container .scroll-down svg{
     animation: ease-in-out scroll-down infinite 1500ms;
 }
 
-@media screen and (min-width: 2550px) and (max-width: 2570px){
-    header{height: 97vh ;}
+@media screen and (min-width: 1460px) and (max-width: 2570px){
+    header{height: 92vh ;}
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1450px){
     header{height: 94vh ;}
 }
 
-@media screen and (min-width:1023px) and (max-width:1026px){
+@media screen and (min-width:1023px) and (max-width:1090px){
     header{height: 92vh ;}
 }
 
+@media screen and (min-width: 780px) and (max-width: 1020px){
+    header{height: 40rem ;}
+}
+
 @media screen and (min-width: 758px) and (max-width: 778px){
-    header{height: 90vh ;}
+    header{height: 35rem ;}
+}
+
+@media screen and (min-width: 440px) and (max-width: 757px){
+    header{height: 20rem ;}
 }
 
 @media screen and (min-width: 400px) and (max-width: 435px){
-    header{height: 51vh ;}
+    header{height: 18rem ;}
 }
 
 @media screen and (min-width: 365px) and (max-width: 385px){
-    header{height: 45vh ;}
+    header{height: 17rem ;}
 }
 
 @media screen and (min-width: 310px) and (max-width: 355px){
-    header{height: 38vh ;}
+    header{height: 14rem ;}
 }
 /* end header  */
 /* start about */
@@ -110,7 +118,7 @@ header .container .scroll-down svg{
 .about .container .image h1{
     text-transform: uppercase;
     font-size: 3.5rem;
-    letter-spacing: 1.5rem;
+    letter-spacing: 1.25rem;
     z-index: 1;
     top: -2.75rem;
     color: var(--main-color)
@@ -186,6 +194,7 @@ header .container .scroll-down svg{
     text-decoration: none;
     color: var(--main-color);
     border: 1px solid var(--main-color);
+    width: 10rem;
     transition: 0.3s;
 }
 .resume .container a:hover{
