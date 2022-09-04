@@ -102,7 +102,7 @@ header .container .scroll-down svg{
 }
 
 @media screen and (min-width: 400px) and (max-width: 435px){
-    header{height: 18rem ;}
+    header{height: 20rem ;}
 }
 
 @media screen and (min-width: 365px) and (max-width: 385px){
