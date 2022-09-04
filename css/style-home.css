@@ -90,14 +90,22 @@ header .container .scroll-down svg{
 }
 
 @media screen and (min-width: 780px) and (max-width: 1020px){
-    header{height: 40rem ;}
+    header{height: 38rem ;}
 }
 
 @media screen and (min-width: 758px) and (max-width: 778px){
     header{height: 35rem ;}
 }
 
-@media screen and (min-width: 440px) and (max-width: 757px){
+@media screen and (min-width: 620px) and (max-width: 725px){
+    header{height: 34rem ;}
+}
+
+@media screen and (min-width: 510px) and (max-width: 610px){
+    header{height: 26rem ;}
+}
+
+@media screen and (min-width: 440px) and (max-width: 500px){
     header{height: 20rem ;}
 }
 
@@ -105,11 +113,11 @@ header .container .scroll-down svg{
     header{height: 20rem ;}
 }
 
-@media screen and (min-width: 365px) and (max-width: 385px){
+@media screen and (min-width: 365px) and (max-width: 395px){
     header{height: 17rem ;}
 }
 
-@media screen and (min-width: 310px) and (max-width: 355px){
+@media screen and (min-width: 310px) and (max-width: 361px){
     header{height: 14rem ;}
 }
 /* end header  */
@@ -161,7 +169,6 @@ header .container .scroll-down svg{
 
 .education .container div img{
     width: 25vw;
-    height: 50vh;
 }
 
 .education .container li a svg{color: #fff; transition: 0.3s}

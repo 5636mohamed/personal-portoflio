@@ -47,3 +47,5 @@
 .competitions .container{justify-content: space-around;}
 
 .competitions .container iframe{height: 25rem !important}
+
+.courses{background-color: var(--main-color);}
