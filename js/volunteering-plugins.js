@@ -10,3 +10,11 @@ window.onscroll = function (){
     if(window.scrollY >= (footer.offsetTop - 500))
         footer.classList.add("slide-top");
 };
+
+let overlay = document.querySelector(".overlay"),
+    html = document.querySelector("html");
+
+window.onload = function (){
+    overlay.style.opacity = "0";
+    html.style.overflow = "auto";
+}

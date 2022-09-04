@@ -5,6 +5,16 @@ var typed = new Typed(".auto-typed", {
     loop: true
 });
 
+// get all overlay content to make the loader
+
+let overlay = document.querySelector(".overlay"),
+    html = document.querySelector("html");
+
+window.onload = function (){
+    overlay.style.opacity = "0";
+    html.style.overflow = "auto";
+}
+
 // get all elements in the home page
 
 let about = document.getElementById("about"),
@@ -20,10 +30,4 @@ window.onscroll = function (){
         resume.classList.add("slide-top");
     if (window.scrollY >= (footer.offsetTop - 500))
         footer.classList.add("slide-top");
-    if (window.scrollY >= (competitions.offsetTop- 200))
-        courses.classList.add("slide-top");
-    if (window.scrollY >= (features.offsetTop- 200))
-        features.classList.add("slide-top");
-    if (window.scrollY >= (projects.offsetTop- 200))
-        projects.classList.add("slide-top");
 };
