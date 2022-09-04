@@ -11,6 +11,21 @@ html{
 	animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-color);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--secondary-color);
+}
+
 /* start nav */
 .navbar{
     background-color: var(--main-color)
