@@ -3,6 +3,8 @@ header img{
     opacity: 0.2;
 }
 
+.courses{opacity: 0;}
+
 .courses .container ul li div{
     width: 0%;
     height: 100%;
@@ -53,6 +55,7 @@ header img{
 .courses .container ul li:hover div{width: 100%; visibility: visible;}
 
 .feature {
+    opacity: 0;
     background-image: url(../imgs/code.jpg);
     background-position: left;
     background-attachment: fixed;
@@ -67,6 +70,8 @@ header img{
 }
 
 .feature .container {z-index: 3;}
+
+.projects{opacity: 0;}
 
 .projects .container .text a{
     text-decoration: none;

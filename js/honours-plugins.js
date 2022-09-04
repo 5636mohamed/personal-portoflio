@@ -1,16 +1,12 @@
-var typed = new Typed(".auto-typed", {
-    strings: ["Data Science", "Artificial Intelligence", "Robotics", "IoT", "Quantum Computing"],
-    typeSpeed: 100,
-    backSpeed: 50,
-    loop: true
-})
-
 // get all elements in the home page
 
-let features = document.getElementById("features"),
+let competitions = document.getElementById("competitions"),
+    features = document.getElementById("feature"),
     projects = document.getElementById("projects"),
     footer = document.querySelector("footer");
 window.onscroll = function (){
+    if (window.scrollY >= (competitions.offsetTop- 200))
+        competitions.classList.add("slide-top");
     if (window.scrollY >= (features.offsetTop- 200))
         features.classList.add("slide-top");
     if (window.scrollY >= (projects.offsetTop- 200))
