@@ -7,7 +7,7 @@
 .navbar{
     background-color: var(--main-color)
 }
-.navbar .logo{letter-spacing: 0.5rem;}
+.navbar .logo{letter-spacing: 0.25rem;}
 @media screen and (min-width: 320px) and (max-width: 376px){.navbar .logo{letter-spacing: 0;}}
 .navbar ul li a{
     color: #fff;
