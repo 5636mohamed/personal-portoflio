@@ -271,6 +271,7 @@ footer span svg{color:rgb(242, 18, 63)}
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 .spinner {
     width: 40px;
