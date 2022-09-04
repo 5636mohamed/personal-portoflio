@@ -1,0 +1,49 @@
+.feature{
+    background-image: url(../imgs/summer-program6.jpg);
+    background-size: cover;
+}
+
+.positions .container ul:before{
+    content:"";
+    width: 0.6rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+}
+
+.positions .container ul li:before{
+    content:"";
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: -2.4rem;
+    background-color: var(--main-color);
+}
+
+.slider{
+    background-color: var(--main-color);
+    height: 10rem
+}
+
+.capstone .container .cap{justify-content: space-between}
+
+.capstone .container .cap a{
+    text-decoration: none;
+    color: var(--main-color);
+    border: 1px var(--main-color) solid;
+    width: 10rem;
+    transition: 0.3s;
+}
+
+.capstone .container .cap a:hover{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.competitions .container{justify-content: space-around;}
+
+.competitions .container iframe{height: 25rem !important}
