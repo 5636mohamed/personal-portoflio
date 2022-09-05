@@ -19,11 +19,11 @@ window.onscroll = function (){
         footer.classList.add("slide-top");
 };
 
-let overlay = document.querySelector(".overlay"),
+let overlay = document.querySelector("body > .overlay"),
     html = document.querySelector("html");
 
 window.onload = function (){
     overlay.style.opacity = "0";
-    overlay.style.display = "none";
+    overlay.style.zIndex = "-1";
     html.style.overflow = "auto";
 }

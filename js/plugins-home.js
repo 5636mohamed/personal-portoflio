@@ -12,7 +12,7 @@ let overlay = document.querySelector(".overlay"),
 
 window.onload = function (){
     overlay.style.opacity = "0";
-    overlay.style.display = "none";
+    overlay.style.zIndex = "-1";
     html.style.overflow = "auto";
 }
 
