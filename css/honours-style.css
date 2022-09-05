@@ -3,6 +3,9 @@
     background-size: cover;
 }
 
+.feature .feat h6{
+    font-weight: bold !important;
+}
 .positions .container ul:before{
     content:"";
     width: 0.6rem;
