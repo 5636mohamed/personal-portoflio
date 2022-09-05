@@ -70,13 +70,14 @@
         <section id="contact" class="contact mb-3 mt-3">
             <div class="container pt-3 pb-4">
                 <h1 class="text-center">Contact Me!</h1>
-                <form class="d-flex flex-column gap-3 m-auto align-items-center" autocomplete="off">
+                <form class="d-flex flex-column gap-3 m-auto align-items-center" action="https://formspree.io/f/xvoyzznd"
+                method="POST" autocomplete="off">
                     <div class="personal d-flex w-100 flex-wrap gap-3">
-                        <input type="text" placeholder="First Name*" name="" id="" autoComplete="off" required class="d-block pb-2 pt-2 mb-4">
-                        <input type="text" placeholder="Sur Name*" name="" id="" autoComplete="off" required class="d-block pb-2 pt-2 mb-4">
+                        <input type="text" placeholder="First Name*" name="First" id="First" autoComplete="off" required class="d-block pb-2 pt-2 mb-4">
+                        <input type="text" placeholder="Sur Name*" name="Sur" id="Sur" autoComplete="off" required class="d-block pb-2 pt-2 mb-4">
                     </div>
-                    <input type="email" placeholder="Email*" name="" id="" autoComplete="off" required class="d-block mb-4 pb-2 ps-2 pt-2 w-100">
-                    <textarea name="" placeholder="Message*" id="" cols="30" rows="10" required class="w-100 d-block mb-4 ps-2"></textarea>
+                    <input type="email" placeholder="Email*" name="email" id="email" autoComplete="off" required class="d-block mb-4 pb-2 ps-2 pt-2 w-100">
+                    <textarea name="msg" placeholder="Message*" id="msg" cols="30" rows="10" required class="w-100 d-block mb-4 ps-2"></textarea>
                     <button type="submit" class="align-items-center rounded-pill pt-2 pb-2">Get in touch</button>
                 </form>
             </div>
@@ -125,7 +126,7 @@
         <script src="js/all.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/bootstrap.bundle.js.map"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
         <script src="js/contact-plugins.js"></script>
     </body>
 </html>
