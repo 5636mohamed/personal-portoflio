@@ -175,49 +175,12 @@ header .container .scroll-down svg{
 
 /* end about */
 
-/* start education */
+/* start resume */
 
-.education{
+.resume{
     background-color: var(--main-color);
     opacity: 0;
 }
-
-.education .container{
-    justify-content: space-between;
-}
-
-.education .container h1{
-    color: var(--heading-color);
-    font-size: 4rem;
-    top: -6.75rem;
-}
-
-.education .container div img{
-    width: 25vw;
-}
-
-.education .container li a svg{color: #fff; transition: 0.3s}
-
-.education .container li a:hover svg{
-    transform: scale(1.5);
-    color: var(--secondary-color)
-}
-
-@media screen and (max-width: 768px){
-    .education .container{
-        justify-content: center;
-    }
-    .education .container div img{
-        width: 50%;
-        height: 60%;
-    }
-}
-
-/* end education */
-
-/* start resume */
-
-.resume{opacity: 0;}
 
 .resume .container h1{
     font-size: 5rem;
@@ -226,17 +189,162 @@ header .container .scroll-down svg{
 .resume .container a{
     cursor: pointer;
     text-decoration: none;
-    color: var(--main-color);
-    border: 1px solid var(--main-color);
+    color: white;
+    border: 1px solid white;
     width: 10rem;
     transition: 0.3s;
 }
 .resume .container a:hover{
+    background-color: white;
+    color: var(--main-color)
+}
+
+/* end resume */
+
+/* start projects */
+
+.projects {
+    justify-content: flex-end;
+    opacity: 0
+}
+
+.projects .slider{
+    max-width: 1040px;
+    width: 100%;
+}
+
+.projects .slider label[for="input_1"]{
+    background-image: url(../imgs/course1.png);
+    opacity: 50%;
+}
+
+.projects .slider label[for="input_2"]{
+    background-image: url(../imgs/course2.png);
+    opacity: 0.5;
+}
+
+.projects .slider label[for="input_3"]{
+    background-image: url(../imgs/course3.png);
+    opacity: 0.5;
+}
+
+.projects .slider label[for="input_4"]{
+    background-image: url(../imgs/course4.jpg);
+    opacity: 0.5;
+}
+
+.projects .slider label[for="input_5"]{
+    background-image: url(../imgs/course5.jpeg);
+    opacity: 0.5;
+}
+
+.projects .slider .slider_img{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.projects .slider .slider_background{
+    background-size: auto 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    position: relative;
+    height: 420px;
+    border-radius: 100px;
+    cursor: pointer;
+    flex: 0.1;
+    overflow: hidden;
+    transition: all 0.5s ease-in; 
+}
+
+.projects #input_1:checked ~ label[for="input_1"]{
+    flex: 0.5;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.projects #input_2:checked ~ label[for="input_2"]{
+    flex: 0.5;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.projects #input_3:checked ~ label[for="input_3"]{
+    flex: 0.5;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.projects #input_4:checked ~ label[for="input_4"]{
+    flex: 0.5;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.projects #input_5:checked ~ label[for="input_5"]{
+    flex: 0.5;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.projects .learn a{
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+    color: var(--main-color);
+    transition: 0.5s;
+}
+
+.projects .learn a:hover{
     background-color: var(--main-color);
     color: #fff;
 }
 
-/* end resume */
+/* end projects */
+
+/* start contact */
+
+.contact{
+    box-shadow: 0.01rem 0.01rem 1rem 0.05rem #ded6d6;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.contact img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact img{display: none;}
+}
+
+
+.contact .form form input[type="text"],
+.contact .form form input[type="email"],
+.contact .form form textarea{
+    border: none;
+    border-bottom: 1px solid var(--main-color)
+}
+
+.contact .form form input[type="text"]:focus,
+.contact .form form input[type="email"]:focus,
+.contact .form form textarea:focus{outline: none;}
+
+.contact .form form button{
+    background-color: #fff;
+    border:1px solid var(--main-color);
+    color: var(--main-color);
+    transition: 0.3s;
+}
+
+.contact .form form button:hover{
+    background-color: var(--main-color);
+    border:1px solid var(--main-color);
+    color: #fff;
+}
+
+/* end contact  */
 
 /* start footer  */
 footer{
