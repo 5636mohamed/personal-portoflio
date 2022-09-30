@@ -308,6 +308,7 @@ header .container .scroll-down svg{
     box-shadow: 0.01rem 0.01rem 1rem 0.05rem #ded6d6;
     border-radius: 20px;
     justify-content: space-between;
+    opacity: 0;
 }
 
 .contact img{

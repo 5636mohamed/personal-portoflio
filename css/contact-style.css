@@ -1,45 +1,45 @@
 
-.contact{opacity: 0;}
+.contacting{opacity: 0;}
 
-.contact .container{
+.contacting .container{
     box-shadow: 1px 4px 6px 0px #333;
     border-radius: 1rem;
     width: 85%;
 }
 
-.contact .container input[type="text"],
-.contact .container input[type="email"],
-.contact .container textarea{
+.contacting .container input[type="text"],
+.contacting .container input[type="email"],
+.contacting .container textarea{
     border:0;
     border-bottom: 1.75px var(--heading-color) solid;
 }
 
-.contact .container form{width:80%;}
+.contacting .container form{width:80%;}
 
-.contact .container input[type="text"],
-.contact .container input[type="email"]{width:calc(50% - 0.5rem);}
+.contacting .container input[type="text"],
+.contacting .container input[type="email"]{width:calc(50% - 0.5rem);}
 
-.contact .container input[type="text"]:focus,
-.contact .container input[type="email"]:focus,
-.contact .container textarea{outline:none}
+.contacting .container input[type="text"]:focus,
+.contacting .container input[type="email"]:focus,
+.contacting .container textarea{outline:none}
 
-.contact .container input[type="email"],
-.contact .container textarea{width: 79%}
+.contacting .container input[type="email"],
+.contacting .container textarea{width: 79%}
 
 @media screen and (max-width: 426px){
-    .contact .container{width: 100%;}
-    .contact .container input[type="text"],
-    .contact .container input[type="email"]{width:100%}
+    .contacting .container{width: 100%;}
+    .contacting .container input[type="text"],
+    .contacting .container input[type="email"]{width:100%}
 }
 
-.contact .container button{
+.contacting .container button{
     border: 1px var(--main-color) solid;
     color: var(--main-color);
     background-color: #fff;
     width: 12rem !important;
     transition: 0.3s
 }
-.contact .container button:hover{
+.contacting .container button:hover{
     color: #fff;
     background-color: var(--main-color);
 }
